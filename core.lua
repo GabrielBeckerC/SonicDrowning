@@ -12,7 +12,7 @@ frame:SetScript("OnUpdate", function(self, elapsed)
             secondsLeft = secondsLeft * (MirrorTimer1.maxvalue or 60)
         end
 
-        -- Lógica de disparo
+        -- Trigger
         if secondsLeft <= threshold and secondsLeft > 0 then
             if not musicPlaying then
                 PlayMusic(musicPath)
