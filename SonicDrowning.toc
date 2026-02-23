@@ -1,0 +1,8 @@
+## Interface: 20504
+## Title: Sonic Drowning Music
+## Notes: Plays the drowning music from the Sonic game when you're about to run out of breath.
+## Author: Gabriel Becker Costa
+## Version: 1.0
+## RequiredDeps: RXPGuides
+
+core.lua
